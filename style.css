@@ -1,0 +1,100 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+	background: url(pict.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.title1
+{
+	text-align: center;
+	padding: 50px 0 20px;
+}
+.title1 h1 
+{
+	margin: 0;
+	padding:0;
+	color: #2980b9;
+	font-size: 50px;
+}
+.LoginBox
+{
+	width: 320px;
+	height: 420px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	background: #fff;
+	outline: none;
+	display: block;
+	margin: 20px auto;
+	box-shadow: rgba(0,0,0, 0.298039) 0px 3px 8px;
+	padding: 70px 30px;
+}
+.lock
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.LoginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.LoginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.LoginBox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px #3498db solid;
+	color: #fff;
+	font-size: 16;
+	background: transparent;
+	outline:none;
+	height: 40px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,5);
+}
+.LoginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: #3498db;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.LoginBox input[type="submit"]
+{
+	background: #3498db;
+	color: #8e44ad;
+}
+.LoginBox a
+{
+	color: #3498db;
+	font-size: 14px;
+	font-weight: bold;
+}
