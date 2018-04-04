@@ -2,7 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background: url(pict.jpg);
+	background:url(bg1.jpg);
 	background-size: cover;
 	font-family: sans-serif;
 }
@@ -67,7 +67,6 @@ h1
 {
 	border: none;
 	border-bottom: 1px #3498db solid;
-	color: #fff;
 	font-size: 16;
 	background: transparent;
 	outline:none;
@@ -87,14 +86,22 @@ h1
 	cursor: pointer;
 	border-radius: 20px;
 }
-.LoginBox input[type="submit"]
+.LoginBox input[type="submit"]:hover
 {
 	background: #3498db;
 	color: #8e44ad;
+	
 }
 .LoginBox a
 {
 	color: #3498db;
 	font-size: 14px;
 	font-weight: bold;
+}
+.footer
+{
+	text-align: center;
+	position:fixed;
+   	bottom:0;
+  	width:100%;
 }
